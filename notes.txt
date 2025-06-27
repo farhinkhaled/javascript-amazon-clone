@@ -1,0 +1,6 @@
+amazon.js
+-----------
+- data attribute is a HTML attribute
+    have to start with data then any name
+        ex - data-name
+- 
