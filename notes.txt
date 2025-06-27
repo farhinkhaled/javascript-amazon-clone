@@ -1,6 +1,12 @@
-amazon.js
------------
 - data attribute is a HTML attribute
     have to start with data then any name
         ex - data-name
-- 
+- module is a better way to organize code 
+    - module contains a variable inside a file 
+    - not causes conflict with anything outside the file 
+- <script type="module" src="scripts/amazon.js"></script> let's this file get variables out of other files  
+    - export let cart = []; write "export" infront of those variables that will be used in other files 
+    - import {cart} from '../data/cart.js'
+
+- modules only work with live server 
+
