@@ -9,4 +9,6 @@
     - import {cart} from '../data/cart.js'
 
 - modules only work with live server 
-
+- utils -> useful utility
+- ../ -> go outside the current folder
+- ./ -> mean go to current folder
