@@ -12,3 +12,14 @@
 - utils -> useful utility
 - ../ -> go outside the current folder
 - ./ -> mean go to current folder
+- external libraries -> code that is outside of a project 
+- code compression is called minification 
+- to use (js module + external libraries) use ESM version -> EcmaScript Module 
+    EcmaScript is just another name for javascript 
+    ESM - a version that works with js modules 
+
+- export default functionName/variableName -> can import without curly bracket  
+    each file can only have 1 default export 
+
+- import with curly bracket is called named export 
+- if localStorage causes problem then -> in console of webpage run localStorage.clear()
