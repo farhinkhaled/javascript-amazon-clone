@@ -31,3 +31,8 @@
         ex - eventListener 
     model is used to generate the view and then when we interact with the view it will run the controller and the controller will update the model
         ex - cart is a model which has been used to generate HTML 
+
+- main idea of js
+    - save the data -> model
+    - generate the HTML -> view
+    - make it interactive 
