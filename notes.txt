@@ -12,6 +12,7 @@
 - utils -> useful utility
 - ../ -> go outside the current folder
 - ./ -> mean go to current folder
+- ../../data/cart.js -> to get out of checkout folder then again to get out of scripts folder 
 - external libraries -> code that is outside of a project 
 - code compression is called minification 
 - to use (js module + external libraries) use ESM version -> EcmaScript Module 
@@ -23,3 +24,10 @@
 
 - import with curly bracket is called named export 
 - if localStorage causes problem then -> in console of webpage run localStorage.clear()
+- MVC
+    - model -> saves and manages data
+    - view -> takes the data and displays it on page
+    - controller -> runs some code when we interact with the page 
+        ex - eventListener 
+    model is used to generate the view and then when we interact with the view it will run the controller and the controller will update the model
+        ex - cart is a model which has been used to generate HTML 
