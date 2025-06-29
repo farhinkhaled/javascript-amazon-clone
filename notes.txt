@@ -36,3 +36,7 @@
     - save the data -> model
     - generate the HTML -> view
     - make it interactive 
+
+- automated testing means using code to test code 
+- .toFixed(2) returns a string, not a number.
+- group of related tests is called test suit
