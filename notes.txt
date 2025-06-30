@@ -44,3 +44,8 @@
     ex - jasmine
          jest (for reactjs)
          mochajs
+- in jasmine spec is another name for test 
+- expect(formatCurrency(0)).toEqual('0.00'); -> here expect gives an object 
+-   describe('test suit: formatCurrency', () => {
+        describe();
+    }); -> we can use describe inside describe 
