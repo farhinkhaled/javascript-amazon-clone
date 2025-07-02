@@ -72,3 +72,7 @@
         expect(localStorage.setItem).toHaveBeenCalledTimes(1); 
 
 - a mock only lasts for 1 test
+- unit test -> testing 1 piece of code 
+- integration test -> tests many units/pieces of code working together 
+- hooks -> run some code for each test 
+    ex -beforeEach();
