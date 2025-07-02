@@ -76,3 +76,9 @@
 - integration test -> tests many units/pieces of code working together 
 - hooks -> run some code for each test 
     ex -beforeEach();
+- oop -> organizing code int object 
+- procedural programming -> a set of step by step instructions
+- loadFromStorage: function () -> shortcut loadFromStorage()
+- oop makes it easy to create multiple objects
+- oop tries to represent real world
+- use pascal case for things that generate objects
