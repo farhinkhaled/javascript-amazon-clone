@@ -86,3 +86,6 @@
     class is cleaner and have more features than function 
 - use pascal case for things that generate objects
 - each object of a class is called an instance of a class
+- how to make a property private in a class? 
+    ex - #propertyName
+- another name of class property is field
