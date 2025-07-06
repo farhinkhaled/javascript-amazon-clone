@@ -89,3 +89,41 @@
 - how to make a property private in a class? 
     ex - #propertyName
 - another name of class property is field
+- super() -> calls the constructor of the parent class
+- if we don't run the constructor of a child class, it'll run the constructor of the parent class 
+- discriminator property tells which class should be converted into
+- target="_blank" -> open in new tab
+- to call parent class method use -> super.methodName()
+- polymorphism -> use the metho without knowing the class
+- 
+
+problems
+-------------
+
+The extraInfoHTML() function in your Clothing class is not returning anything because of this:
+
+```
+extraInfoHTML(){
+  return 
+  `
+    <a href="${this.sizeChartLink}" target="_blank">
+      Size Chart
+    </a>
+  `;
+}
+```
+
+The return statement is on one line, and the template string is on the next line. This causes JavaScript to treat the return as returning undefined, due to automatic semicolon insertion.
+
+✅ Fix:
+You need to move the return and the template string to the same line or wrap the template string immediately after return, like this:
+
+```
+extraInfoHTML() {
+  return `
+    <a href="${this.sizeChartLink}" target="_blank">
+      Size Chart
+    </a>
+  `;
+}
+```
