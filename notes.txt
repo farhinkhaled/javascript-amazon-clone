@@ -95,7 +95,40 @@
 - target="_blank" -> open in new tab
 - to call parent class method use -> super.methodName()
 - polymorphism -> use the metho without knowing the class
+- 'this' keyword 
+    - inside a method (function inside object)
+    - inside a function we can change 'this' to whatever we want
+    - inside a regular function 'this' becomes undefined
+    - arrow function do not change the value of 'this'
 - 
+
+
+code
+---------
+-   /*
+    * b: this.a -> this will give error 
+    * because the object is not created yet
+    */
+    let newObject = {
+        a: 2,
+        b: this.a
+    }
+
+-   function logThis(){
+        console.log(this);
+    }
+
+    logThis();
+    logThis('hello world');
+
+-   let newObj = {
+        method: () => {
+            console.log(this); // here 'this' points to the newObj
+        }
+    }
+
+    newObj.method(); -> output undefined
+
 
 problems
 -------------
