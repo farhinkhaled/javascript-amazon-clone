@@ -100,8 +100,20 @@
     - inside a function we can change 'this' to whatever we want
     - inside a regular function 'this' becomes undefined
     - arrow function do not change the value of 'this'
-- 
-
+- URL -> uniform resource locator
+    - helps locate another computer on internet
+- https -> 's' means using secure version of http
+    ex- https://amazon.com -> 'amazon.com' domain name
+        amazon.com points to amazon's one of backend computers
+- request-response cycle -> 1 request 1 response
+- status code tells if a request succeeded or failed
+- API -> application programming interface, interface means how we interact with something
+- backend can respond with data
+    - text
+    - JSON
+    - HTML
+    - image
+- using browser = making GET request
 
 code
 ---------
@@ -128,6 +140,31 @@ code
     }
 
     newObj.method(); -> output undefined
+
+-   new XMLHttpRequest()
+
+    this creates a new http message to send to backend
+    message = request
+
+-   xhr.open() -> it has two parameters
+                  - what type of http message
+                  - where to send this http message
+
+-   /*
+     * 'load' - wait for the response to come back 
+     * the function runs after the events loaded
+     */
+
+    xhr.addEventListener('load', () => {
+        console.log(xhr.response());
+    })
+
+    xhr.addEventListener() takes two parameters
+        - what event to listen
+        - a function
+    
+    console.log(xhr.response()) -> this response is a string
+
 
 
 problems
