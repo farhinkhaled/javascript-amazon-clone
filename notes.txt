@@ -114,6 +114,7 @@
     - HTML
     - image
 - using browser = making GET request
+- callback -> a function to run in the future
 
 code
 ---------
