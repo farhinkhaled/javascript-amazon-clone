@@ -115,6 +115,10 @@
     - image
 - using browser = making GET request
 - callback -> a function to run in the future
+- resolve is a function, it is similar to jasmine's done() function
+    - control when to go to next step
+- in case of asynchronous code use Promise instead of callbacks because Promise keeps code more flat
+
 
 code
 ---------
